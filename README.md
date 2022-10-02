@@ -8,7 +8,8 @@
 clone the repo and run the commands in project root dir:
 - composer install
 - php -S localhost:8000 -t public 
-    - Endpoint /products
+    - Endpoint: /products
+    - DOC: https://documenter.getpostman.com/view/5142062/2s83tFJBwj
 
 ## Tests
 run the command in project root dir:
