@@ -76,8 +76,8 @@ class ProductsController extends Controller{
 
     public function getProducts(){
         //PRODUCTS AND DISCOUNT RULES
-        $products      = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/../resources/data/products.json'), true)['products']; 
-        $discountRules = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/../resources/data/discount-rules.json'), true)['rules'];
+        $products      = json_decode(file_get_contents(__DIR__ . '/../../../resources/data/products.json'), true)['products']; 
+        $discountRules = json_decode(file_get_contents(__DIR__ . '/../../../resources/data/discount-rules.json'), true)['rules'];
         
         //FILTERS
         $filters = array();

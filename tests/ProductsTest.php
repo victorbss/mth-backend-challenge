@@ -9,9 +9,9 @@ class ProductsTest extends TestCase{
      *
      * @return void
      */
-    public function testProducts(){
-        $response = $this->call('GET', '/products');
-        $this->assertEquals($response->status(), 200);
+    public function testProductsResponseOK(){
+        $this->get('/products');
+        $this->assertResponseOk();
     }
 
 }
