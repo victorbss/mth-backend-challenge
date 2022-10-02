@@ -1,0 +1,14 @@
+{
+    "rules": [
+        {
+            "key": "category",
+            "value": "boots",
+            "percentDiscount": "30"
+        },
+        {
+            "key": "sku",
+            "value": "000003",
+            "percentDiscount": "15"
+        }
+    ] 
+}
